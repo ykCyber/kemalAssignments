@@ -7,11 +7,11 @@ public class iPhone extends Smartphone {
 	
 	public static void music() {
 		System.out.println("whic song do you wantto listen:");
-		itunes(tc.nextLine());
+		iTunes(tc.nextLine());
 	}
 
-	private static void itunes(String nextLine) {
-		//bul klip
+	private static void iTunes(String nextLine) {
+		
 	}
 
 	public static void appStore() {

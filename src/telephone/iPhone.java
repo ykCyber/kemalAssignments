@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class iPhone extends Smartphone {
 	
-	
+	//4545645645645645645645645645
 	public static void music() {
 		System.out.println("whic song do you wantto listen:");
 		iTunes(tc.nextLine());
+		// that line is for test purpose
 	}
 
 	private static void iTunes(String nextLine) {

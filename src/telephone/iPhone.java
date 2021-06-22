@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class iPhone extends Smartphone {
 	
 	//4545645645645645645645645645
+	//deneme
 	public static void music() {
 		System.out.println("whic song do you wantto listen:");
 		iTunes(tc.nextLine());

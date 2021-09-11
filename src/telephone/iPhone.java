@@ -2,12 +2,14 @@ package telephone;
 
 import java.util.Scanner;
 
-public class iPhone extends Smartphone {
-	
+public class iPhone extends MobilePhone {
+
+	private static String OS ;
+
 	//4545645645645645645645645645
 	//deneme
 	public static void music() {
-		System.out.println("whic song do you wantto listen:");
+		System.out.println("which song do you want to listen:");
 		iTunes(tc.nextLine());
 		// that line is for test purpose
 	}

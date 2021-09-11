@@ -12,8 +12,8 @@ public class Test {
         MobilePhone nokia = new MobilePhone();
                 new MobilePhone();
        nokia=  new iPhone("12");
-        Smartphone sm = new iPhone("13");
-        ((iPhone)nokia).music();
+        Smartphone sm = new Smartphone("13");
+        
         System.out.println(nokia.hashCode());
                //  nokia = new Android("samsung", "10");
 
@@ -32,6 +32,11 @@ public class Test {
 //        }
 //        else{
 //            System.out.println("other");
+    }
+
+    private static class Smartphone {
+        public Smartphone(String s) {
+        }
     }
 //		mp = new MobilePhone();
 //		mp = new Android("Samsung","Android 10");

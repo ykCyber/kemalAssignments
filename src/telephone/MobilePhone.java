@@ -1,6 +1,7 @@
 package telephone;
 
 public class MobilePhone {
+
     String serviceProvider;
     String phoneType="Classic Phone";
     int batteryCapacity;
